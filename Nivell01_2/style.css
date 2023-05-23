@@ -54,7 +54,7 @@
         }
 
 .container02 {
-    background-color: black;
+    background-color: yellow;
     display: flex;
     
 }
@@ -94,3 +94,11 @@
         width: 100%;
 
     }
+
+@media all and (min-width:800px){
+    .container02 {
+        flex-direction: column;
+    }
+
+    
+}

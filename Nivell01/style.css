@@ -1,13 +1,13 @@
-<<<<<<< HEAD
 /* això és per fer un reset de parametres */
 * {
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 20px;
 }
 
 body{
-display: flex;
-flex-basis: 1200px auto;
+
+
+
 
 }
 
@@ -28,6 +28,9 @@ h2 {
 
 }
 .container01 {
+    display: flex;
+    flex-basis: 1200px auto; 
+    flex-direction: row;
     background-color: beige;
 }
 .header{
@@ -35,42 +38,4 @@ h2 {
 }
 .title {
     background-color: aliceblue;
-=======
-/* això és per fer un reset de parametres */
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body{
-display: flex;
-flex-basis: 1200px auto;
-
-}
-
-h1 {
-    text-align: center;
-    color: blue;
-    line-height: 100%;
-    font-size: 2.0em;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-}
-h2 {
-    text-align: center;
-    color: red;
-    line-height: 100%;
-    font-size: 1.6em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-}
-.container01 {
-    background-color: beige;
-}
-.header{
-    background-color: aquamarine;
-}
-.title {
-    background-color: aliceblue;
->>>>>>> b0047013146c808297ea827fbc6213beeccaa0da
 }

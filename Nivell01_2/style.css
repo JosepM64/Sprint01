@@ -1,0 +1,96 @@
+
+* {
+    margin: 10px;
+    padding: 5px;
+    box-sizing: border-box; 
+}
+
+.container{
+    display: flex;
+    flex-flow: column nowrap;
+    flex-basis: 1200px auto; 
+
+}
+
+.container01 {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: black;
+}
+    .header  {
+        display: flex;
+        background: grey;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+
+        .Caja1{
+            flex-direction: row;
+            background-color: rgb(187, 80, 30);
+            flex: 1 1 auto;
+
+        }
+        .Caja2{
+            flex-direction: row;
+            background-color: rgb(187, 80, 30);
+            flex: 4 1 auto;
+
+        }
+        .Caja3{
+            flex-direction: row;
+            background-color: rgb(187, 80, 30);
+            flex: 1 1 auto;
+
+        }
+    .title {
+        background-color: rgb(209, 150, 22);
+        margin-top: 5px;
+        align-items: center;
+        display: flex;
+    }
+        .title1 {
+            background-color: #FFE569;
+            flex: 1 1   auto;
+        }
+
+.container02 {
+    background-color: black;
+    display: flex;
+    
+}
+    .left    {
+        background-color: grey;
+        flex: 2 1 auto;
+        display: flex;
+        flex-flow: row wrap;
+    }
+        .Caja{
+        background-color: #068DA9;
+        flex: 1 1 40%;
+  
+        }
+        .smallfooter {
+            background-color: #4fa5c7;
+            flex: 1 1 100%;
+        }
+    .right {
+        background-color:#DB005B ;
+        flex: 1 1 auto;
+        
+    }
+        .Cajaright {
+        background-color: #FFE569;
+                
+        }
+
+.footer {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    
+}
+    .footer1 {
+        background-color: #FFE569;
+        width: 100%;
+
+    }

@@ -95,7 +95,7 @@
 
     }
 
-@media all and (min-width:800px){
+@media all and (max-width:800px){
     .container02 {
         flex-direction: column;
     }

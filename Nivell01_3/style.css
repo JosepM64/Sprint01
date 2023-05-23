@@ -95,10 +95,26 @@
 
     }
 
-@media all and (min-width:800px){
+@media all and (max-width:800px){
     .container02 {
         flex-direction: column;
     }
+    .header {
+        flex-direction: column;
+        height: auto;
+       
+    }
 
+@media all and (max-width:400px){
+    .Caja{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .left{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    }
     
 }

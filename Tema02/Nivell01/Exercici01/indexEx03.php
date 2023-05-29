@@ -30,24 +30,26 @@ echo $N*$M."\n";
 echo $N%$M."\n";
 
 // doble de cada variable
-/*
+
 function doble($num){
-    return $num*2;   
+    $dob = $num *2;
+    return $dob;   
 }
 
-$2X = doble($X);
-$2Y = doble($Y);
-$2N = doble($N);
-$2M = doble($M);
-echo $2X." ".$2Y. " ".$2N." " . $2M;
-*/
+$dobleX = doble($X);
+$dobleY = doble($Y);
+$dobleN = doble($N);
+$dobleM = doble($M);
+echo $dobleX . " " . $dobleY . " " . $dobleN . " " . $dobleM;
+
+
 /// suma de totes les variables
 echo $X+$Y+$N+$M ." suma \n";
 /// producte
 echo $X*$Y*$N*$M ." producte \n";
 
 //b) Crea una funció Calculadora que entri dos nombres per paràmetre, i en un tercer paràmetre et permeti fer la suma, la resta, la multiplicació o la divisió dels dos nombres.
-
+echo "Calculadora: \n";
 $num1 = readline("Escriu Num1:");
 $num2 = readline("Escriu Num2:");
 $opcio = readline("Que vols fer 1-sumar, 2-restar, 3-multiplicar-4-dividir:");

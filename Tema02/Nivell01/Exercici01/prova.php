@@ -9,7 +9,8 @@ $countries = [
     'CAN' => 'Canada',
     'MEX' => 'Mexico',
     'BRA' => 'Brazil',
-    'ARG' => 'Argentina'
+    'ARG' => 'Argentina',
+    'USA2' => 'United States',
 ];
 
 if (in_array('facebook', $companies)) {
@@ -21,7 +22,14 @@ if (in_array('facebook', $companies)) {
 }
 
 $codes = array_keys($countries);
-print_r($codes);
+// print_r($codes);
 // var_dump($countries);
+
+// print_r(array_count_values($countries));
+// print_r(array_diff($countries,$companies));
+
+$testArray = [1,2,3];
+$result = array_map(fn($element) => $element * 2, $testArray);
+print_r($result);
 
 ?>

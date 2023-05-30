@@ -1,22 +1,16 @@
-<?php 
-// Charlie em va mossegar el dit! Charlie et mossegarà el dit exactament el 50% del temps. Escriu La funció isBitten () que retorna TRUE amb un 50% de probabilitat i FALSE en cas contrari.
-
+<?php
 function isBitten() {
-$randomNum = rand (0,1);
-
+  $randomNum = rand(0, 1);
+  if ($randomNum <= 0.5) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
-if($randomNum <= 0.5) {
-//    return true;
-echo "Charlie t'ha mossegat el dit!";
-
+if (isBitten()) {
+  echo "Charlie t'ha mossegat el dit!";
 } else {
-
-//    return false;
-echo "Charlie no t'ha mossegat el dit.";
-
+  echo "Charlie no t'ha mossegat el dit.";
 }
-
-
-
 ?>

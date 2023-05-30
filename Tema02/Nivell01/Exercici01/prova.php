@@ -1,4 +1,7 @@
 <?php 
+
+// proves que faig jo , no és exercici!!!
+
 $companies = ['facebook', 'twitter', 'google', 'apple'];
 $colors = [['green', 'blue'], ['red', 'yellow'], 'black'];
 $countries = [

@@ -3,18 +3,16 @@
 class Animal{
 protected $parla;
 
-function __construct($parla) {
+function __construct($meuParla) {
 $this->parla = $meuParla;
 
 }
 
-function setParla($parla) {
-    echo "Sons d'animals";
+function makeSound(){
+echo $this->parla."\n";
 
 }
 
-
 }
-
 
 ?>

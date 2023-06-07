@@ -1,0 +1,16 @@
+* {
+    margin: 10px;
+    padding: 5px;
+    box-sizing: border-box; 
+}
+
+body {
+font-family: 'Poppins', sans-serif;
+}
+
+.containerForm{
+    background-color: rgb(209, 150, 22);
+    align-items: center;
+    
+
+}

@@ -1,0 +1,22 @@
+{
+    "name": "jm/tutorial_composer",
+    "description": "Prova composer",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jm\\TutorialComposer\\": "src/"
+        },
+        "files": [
+            "app/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "JosepM64",
+            "email": "josepmtapia@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}

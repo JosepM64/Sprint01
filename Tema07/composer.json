@@ -1,0 +1,20 @@
+{
+    "name": "jm_dj/tema07",
+    "description": "Tema07_01",
+    "require": {
+        "php": "^8.2",
+        "phpunit/phpunit": "^10.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "JmDj\\Tema07\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "JMT",
+            "email": "josepmtapia@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}

@@ -12,8 +12,6 @@ class numberChecker  {
 	}
 
 }
-$num = new NumberChecker(25);
-var_dump($num->isEven());
-var_dump($num->isPositive());
+
 
 ?>

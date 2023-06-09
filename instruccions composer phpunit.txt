@@ -1,0 +1,30 @@
+primer desde la terminal:
+composer init
+
+enter fins la primera que et demanen les dependencies i posar: 
+
+phpunit
+
+
+
+creamos carpeta "tests"
+y le decimos la ruta para tests
+
+vendor/phpunit/phpunit/phpunit tests
+
+me tendria que salir la vrsion de PHP
+No test Executed
+
+
+<?php
+
+// el incl
+
+include 'src/nombreMiclase.php'
+
+use PHPUnit\Framework\TestCase;
+
+final class UserTest extends TestCase
+{
+    // Tests will go here
+}

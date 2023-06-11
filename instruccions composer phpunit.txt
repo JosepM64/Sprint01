@@ -1,20 +1,23 @@
 primer desde la terminal:
-composer init
+	composer init
 
 enter fins la primera que et demanen les dependencies i posar: 
-
-phpunit
+	phpunit
 
 
 
 creamos carpeta "tests"
 y le decimos la ruta para tests
 
-vendor/phpunit/phpunit/phpunit tests
+	vendor/phpunit/phpunit/phpunit tests
 
-me tendria que salir la vrsion de PHP
+me tendria que salir la vrsion de PHPUnit
 No test Executed
 
+
+dins d'aquesta caropeta Test creem el fitxer per fer elss tests sempre ha d'acabar amb Test (la primera en mayuscula)
+exemple xxxxTest.php (normalment en xxx es posa el nom de la clase)
+Despres aquest fitxer porta el seguent
 
 <?php
 
@@ -28,3 +31,17 @@ final class UserTest extends TestCase
 {
     // Tests will go here
 }
+
+____________________________
+//**@test */
+public function comprobar() {
+
+}
+
+______________
+composer dumb-autoload
+
+
+_____________________
+
+

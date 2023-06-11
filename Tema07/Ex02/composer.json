@@ -1,0 +1,21 @@
+{
+    "name": "jm/ex02",
+    "description": "Exercici02 del Tema07",
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "^10.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jm\\Ex02\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "JosepM64",
+            "email": "josepmtapia@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}

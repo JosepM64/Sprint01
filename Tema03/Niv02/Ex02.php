@@ -20,6 +20,12 @@ foreach($alumnes as $alumne => $notes){
     echo "Mitjana notes del ".$alumne.": ".mitjanaNotes($notes)."\n";
 
 }
-
+// Nota mitja de la classe
+$notes_classe = array();
+foreach($alumnes as $notes) {
+    $notes_classe = array_merge($notes_classe,$notes);
+}
+$mitjana_classe = mitjanaNotes($notes_classe);
+echo "Mitjana classe ".$mitjana_classe."\n";
 
 ?>

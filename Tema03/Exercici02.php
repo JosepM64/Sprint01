@@ -8,8 +8,8 @@ print_r($X);
 unset($X[2]);
 print_r($X);
 
-//reorganitzem les claus senceres pero conservant la key inicial
-asort($X);
+//EJERCICIO CORREGIDO !!! reorganitzem les claus senceres pero conservant la key inicial. Aten
+$X=array_values($X);
 print_r($X);
 
 
